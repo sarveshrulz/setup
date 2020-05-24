@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- Remotes -->
+<remote  name="avalon"
+           fetch="https://github.com/Haseo97"
+           revision="11.0.1" />
+<remote  name="cr"
+           fetch="https://github.com/crdroidandroid"
+           revision="10.0" />
+<remote  name="hyperx"
+           fetch="https://github.com/thedemon12"
+           revision="ten" />
+<remote  name="sarvesh"
+           fetch="https://github.com/sarveshrulz" />
+<!-- Projects -->
+    <project path="device/xiaomi/phoenix" name="android_device_xiaomi_phoenix" remote="sarvesh" revision="bootleg-q" />
+    <project path="device/xiaomi/sm6150-common" name="android_device_xiaomi_sm6150-common" remote="sarvesh" revision="bootleg-q" />
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="cr" />
+    <project path="kernel/xiaomi/sm6150" name="hyperx-x2" remote="hyperx" />
+    <project path="prebuilts/clang/host/linux-x86/clang-avalon" name="avalon-clang-11.0.1" remote="avalon" />
+    <project path="vendor/aeonax/ANXCamera" name="android_vendor_aeonax_anxcamera" remote="sarvesh" revision="master" />
+    <project path="vendor/xiaomi" name="android_vendor_xiaomi" remote="sarvesh" revision="bootleg-q" />
+    <project path="vendor/xiaomi-firmware" name="android_vendor_xiaomi-firmware" remote="sarvesh" revision="master" />
+</manifest>
