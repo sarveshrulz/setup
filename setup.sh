@@ -15,6 +15,7 @@ fi
 
 # Local Manifests
 if [ ! -f ~/Workdir/Bootleg/.repo/local_manifests/silver.xml ] ; then
+  mkdir -p ~/Workdir/Bootleg/.repo/local_manifests
   cp silver.xml ~/Workdir/Bootleg/.repo/local_manifests/silver.xml
 fi
 
